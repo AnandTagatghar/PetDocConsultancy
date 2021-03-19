@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>project</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.header {
+	border:none;
+	width:1385px;
+	background-color:#aaa;
+	text-align:center;
+	padding:60px;
+	font-size:52px;
+	color:white;
+}
+.tab {
+	font-size:20px;
+	background-color:#666;
+	border-top:15px solid white;
+	color:white;
+	padding:30px;
+	width:1445px;
+	float:left;
+}
+.tab:hover {
+	color:white;
+	text-shadow:1px 1px 2px white,0 0 25px blue,0 0 5px darkblue;
+}
+.article {
+	float:left;
+	border-top:15px solid white;
+	text-align:center;
+}
+.article2 {
+	float:left;
+	border-left:15px solid white;
+	width:580;
+	height:400;
+	background-color:#aaa;
+	font-size:40px;
+}
+footer {
+	float:left;
+	background-color:#ccc;
+	font-size:30px;
+	padding:30px;
+	color:red;
+	width:1435px;
+	border-top:15px solid white;
+	text-align:center;
+}
+.fa {
+	padding:10px;
+	font-size:20px;
+	width:30px;
+	text-align:center;
+	text-decoration:none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+.fa:hover {
+	opacity:0.7;
+}
+.fa-facebook {
+	background:#3B5998;
+	color:white;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color:white;
+}
+.fa-instagram {
+	background: #125688;
+	color:white;
+}
+a:hover {
+	opacity:0.7:
+}
+.button {
+	font-size:20px;
+	border-radius:8px;
+	padding:12px;
+}
+.button:hover {
+	background-color:white;
+}
+</style>
+</head>
+<body>
+<div class="header">
+	<text>PET DOC CONSULTENCY</text><br>
+	<div style="margin-left:400px;border:1px solid white;width:600px">
+	</div>
+	<text style="font-size:32px">WELCOME TO PET DOC CONSULTENCY</text>
+</div>
+<div class="tab">
+	<div style="margin-left:900px">
+	<a href="services.html" style="color:white;text-decoration:none">Services</a>&nbsp;|&nbsp;
+	<a href="about.html" style="color:white;text-decoration:none">About Us</a>&nbsp;|&nbsp;
+	<a href="#demo" style="color:white;text-decoration:none">Contact Us</a>&nbsp;|&nbsp;
+	<a href="official.html" style="color:white;text-decoration:none">Official login</a>
+	</div>
+</div>
+<div class="article">
+	<div style="float:left"><img src="pet.jpg" width=900px height=400px>
+	</img></div>
+	<div class="article2">
+		<text style="margin-top:30px;mrgin-left:130px">Login</text><br><br>
+		<form action="login.php" method="post">
+		<text style="mrgin-left:50px;font-size:30px">username:</text>
+		<input type='text' placeholder="example*"  name="login1" required><br>
+		<text style="magin-left:50px;font-size:30px">password:</text>
+		<input type='password' placeholder="****" name="login2" required><br><br>
+		<input class="button" type="submit"  value="login">&nbsp;
+		<input class="button" type="button" onclick="location.href='register.html'" value="register">
+		</form>
+	</div>
+</div>
+<footer id='demo'>
+	<div style="float:left;background-color:#ccc;font-size:30px;color:red;width:600px">
+	Contact Us:<div style="border:1px solid red;width:130px;margin-left:230px"></div>9123456789<br>petcare@gmail.com
+	</div>
+	<div style="float:left;border-left:1px solid red;height:130px;margin-left:147.5px"></div>
+	<div style="margin-left:780px;color:red;width:600px">Follow US:
+	<div style="border:1px solid red;margin-left:230px;width:130px"></div>
+	<div style="margin-left:150px;text-align:left"><a href="#" class="fa fa-facebook"></a>petcare@gmail.com/fb</div>
+	<div style="margin-left:150px;text-align:left"><a href="#" class="fa fa-twitter"></a>petcare@twitter.com/twitter</div>
+	<div style="margin-left:150px;text-align:left"><a href="#" class="fa fa-instagram"></a>petcare@gmail.com/instagram</div>
+	</div>
+</footer>
+</body>
+</html>

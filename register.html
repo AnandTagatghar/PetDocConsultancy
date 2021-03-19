@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>registration page </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.header {
+	float:left;
+	border:none;
+	width:1385px;
+	background-color:#aaa;
+	text-align:center;
+	padding:60px;
+	font-size:52px;
+	color:white;
+}
+footer {
+	float:left;
+	background-color:#ccc;
+	font-size:30px;
+	padding:30px;
+	color:red;
+	width:1435px;
+	border-top:15px solid white;
+	text-align:center;
+}
+.fa {
+	padding:10px;
+	font-size:20px;
+	width:30px;
+	text-align:center;
+	text-decoration:none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+.fa:hover {
+	opacity:0.7;
+}
+.fa-facebook {
+	background:#3B5998;
+	color:white;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color:white;
+}
+.fa-instagram {
+	background: #125688;
+	color:white;
+}
+a:hover {
+	opacity:0.7:
+}
+.text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+    maxlength="20;
+    minlength="6";
+	width:70%;
+}
+.title{
+	color:white;
+	font-size:80px;
+	margin-top:80px;
+	margin-left:80px;
+}
+.button {
+	background-color:#ccc;
+	border:2px solid black;
+	color:black;
+	padding: 12px 16px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	cursor:pointer;
+	border-radius:8px;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.article {
+	float:left;
+	border-top:15px solid white;
+}
+.tab {
+	font-size:20px;
+	background-color:#666;
+	border-top:15px solid white;
+	color:white;
+	padding:30px;
+	width:1445px;
+	float:left;
+}
+a:hover {
+	opacity:0.7;
+	color:red;
+	text-shadow:1px 1px 2px black,0 0 25px red,0 0 5px darkred;
+}
+.a {
+	background-color:#ccc;
+	float:left;
+	width:450px;
+	height:700px;
+	border-left:15px solid white;
+	border-top:15px solid white;
+}
+</style>
+</head>
+<body>
+<div class="header">
+	<text>PET DOC CONSULTENCY</text><br>
+	<div style="margin-left:400px;border:1px solid white;width:600px">
+	</div>
+	<text style="font-size:32px">WELCOME TO PET DOC CONSULTENCY</text>
+</div>
+<div class="tab">
+	<a href="1.html" style="margin-left:1300px;color:white;text-decoration:none">back</a>
+</div>
+<div class="article"><img src="10.jpeg" width='1000px' style="margin-left:20px" height='700px'></img></div>
+<div class="a">
+<form method="post" action="register.php">
+<div style="margin-left:40px;font-size:20px">
+<h1>Register...</h1><br><br>
+username:&nbsp;<br>
+<input class="text-line" placeholder="ex:-ramesh" name="reg1" type="text" pattern="[A-Za-z]{6,20}" title="Username should be minimum of 6 letters and maximum of 20 letters" required><br><br>
+password:&nbsp;<br>
+<input class="text-line" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}" title="Password should contain minimum of 8 letters and maximum of 20 letters and use one uppercase letter and one lowercase letter and one number" placeholder="ex:-****" name="reg2" required><br><br>
+confirm password:&nbsp;<br>
+<input class="text-line" type="password" patther="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}" placeholder="ex:-****" name="cpwd" required><br><br>
+mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<input class="text-line" type="tel" pattern="[0-9]{10}" title="Check your number" placeholder="ex:-8978610810" name="reg3" required><br><br>
+gender:&nbsp;<br>
+<input type="radio" name="gender" value="male" checked>male
+&nbsp;<input type="radio" name="gender" value="female">female
+&nbsp;<input type="radio" name="gender" value="other">other<br><br>
+E-Mail:<br>
+<input class="text-line" type="email"  pattern="[a-z 0-9]+@gmail\.com" title="Check your email" placeholder="ex:-example@gmail.com" name="reg4" required><br><br>
+DOB:&nbsp;<br>
+<input class="text-line" type="date" placeholder="ex:-2000-12-12" name="reg5" required><br>
+<input class="button" type="submit" style="margin-left:30px;margin-top:20px" name="reg" value="register">&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="button" type="button" onClick="location.href='1.html'" value="back">
+</div></div>
+<footer>
+	<div style="float:left;background-color:#ccc;font-size:30px;color:red;width:600px">
+	Contact Us:<div style="border:1px solid red;width:130px;margin-left:230px"></div>9123456789<br>petcare@gmail.com
+	</div>
+	<div style="float:left;border-left:1px solid red;height:130px;margin-left:149.5px"></div>
+	<div style="margin-left:780px;color:red;width:600px">Follow US:
+	<div style="border:1px solid red;margin-left:230px;width:130px"></div>
+	<div style="margin-left:150px;text-align:left"><a href="#" class="fa fa-facebook"></a>petcare@gmail.com/fb</div>
+	<div style="margin-left:150px;text-align:left"><a href="#" class="fa fa-twitter"></a>petcare@twitter.com/twitter</div>
+	<div style="margin-left:150px;text-align:left"><a href="#" class="fa fa-instagram"></a>petcare@gmail.com/instagram</div>
+	</div>
+</footer>
+
+</body>
+</html>
